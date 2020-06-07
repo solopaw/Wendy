@@ -10,5 +10,4 @@ client.on('message', msg => {
     msg.reply('Hello I Am Wendy!');
   }
 });
-
-client.login('token');
+client.login(config.prefix);
